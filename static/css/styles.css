@@ -74,6 +74,32 @@ nav > ul {
     margin: 0;
 }
 
+.most-viewed {
+    min-width: 70vw;
+}
+
+.most-viewed-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.recipe-img {
+    border-radius: 15px;
+}
+
+.recipe-name {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #111111;
+}
+
+.recipe-author {
+    font-size: 14px;
+    margin-top: 0;
+    color: #777777;
+}
+
 footer {
     display: flex;
     align-items: center;
