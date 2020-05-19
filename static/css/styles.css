@@ -48,7 +48,6 @@ nav > ul {
 .banner {
     background: #FBDFDB;
     border-radius: 30px;
-    border-radius: 30px;
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
@@ -78,6 +77,11 @@ nav > ul {
     margin: 0;
 }
 
+.detail-banner > img {
+    width: 100%;
+    border-radius: 15px;
+}
+
 .most-viewed {
     min-width: 70vw;
     margin-top: 40px;
@@ -88,6 +92,10 @@ nav > ul {
     display: grid;
     grid-row-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.most-viewed-content a {
+    text-decoration: none;
 }
 
 .recipe-img {
@@ -119,6 +127,38 @@ nav > ul {
     line-height: 28px;
     text-align: justify;
     margin-bottom: 50px;
+}
+
+.preparation-method h2,
+.ingredients h2 {
+    font-size: 24px;
+}
+
+.preparation-method p{
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.ingredients {
+    margin-bottom: 50px;
+}
+
+.ingredients ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ingredients ul li {
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #444444;
 }
 
 footer {
