@@ -100,6 +100,34 @@ nav > ul {
     border-radius: 15px;
 }
 
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.about div {
+    background: #FBDFDB;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 15vw;
+}
+
+.about i,
+.about span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 700px) {
+    .about div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
 .most-viewed,
 .categories-list {
     min-width: 70vw;
